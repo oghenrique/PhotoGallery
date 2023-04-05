@@ -13,21 +13,14 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url("img/background.jpg");
-    
 }
-  
-  header, footer {
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    animation: fadeIn 1s ease-in-out;
-  }
   
   h1 {
     display: flex; 
     justify-content: center;
     align-items: center;
     color: white;
+    margin-top: 8%;
   }
   
   p + p {
@@ -39,7 +32,6 @@
     display: grid;
     grid-template-rows: 4fr 2fr;
     gap: 15px;
-    animation: zoomIn 1s ease-in-out;
   }
   
   
@@ -52,7 +44,7 @@
     grid-template-columns: 7fr 6fr;
   }
   
-  .fotos1c {
+  .foto1 {
     grid-area: principal;
     background-image: url(img/logo.jpg);
     background-size: cover;
@@ -67,8 +59,6 @@
     width: 100%;
     display: grid;
     grid-template-columns: 8fr 1fr;
-    animation-duration: 2s;
-    animation-name: slideIn; 
   }
   
   .informacoes {
@@ -76,13 +66,8 @@
     font-size: 1em;
     opacity: 1; 
   }
-  
-  img[alt~="botao"] {
-    height: 2.5em;
-    width: 2.5em;
-  }
-  
-  .img__secundaria {
+   
+  .img_secundarias {
     grid-area: secundaria;
     display: grid;
     grid-template-areas: 
@@ -92,7 +77,7 @@
     row-gap: 15px;
   }
   
-  .img__secundaria > * {
+  .img_secundarias > * {
     border: 2px solid white; 
   }
   
@@ -122,12 +107,12 @@
     animation: zoomInAndFadeIn 1s ease-in-out;
 }
 
-.faixa__secundaria{
+.segundaFaixa{
     display: grid;
     column-gap: 15px;
     grid-template-columns: 2fr 2fr 3fr;
 }
-.faixa__secundaria > *{
+.segundaFaixa > *{
     border-style: solid;
     border-color: white;
   }
@@ -154,8 +139,8 @@ footer{
     align-items: center;
 }
 
-.ver__mais{
-    border-radius: 50px;
+.verMais{
+    border-radius: 100px;
     background-color: black;
     align-items: center;
     width: 150px;
@@ -165,6 +150,6 @@ footer{
     justify-content: center;
 }
 
-.ver__mais > p{
+.verMais > p{
     color: white;
 }

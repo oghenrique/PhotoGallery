@@ -4,8 +4,18 @@
   box-sizing: border-box;
 }
 
+h1{
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+}
+
+h1 > .titulo2{
+  color: white;
+}
+
 a{
   text-decoration: none;
+  color: white;
 }
 
 ul, ol, li{
@@ -17,8 +27,8 @@ body{
   width: 100vw;
   display: grid;
   grid-template-rows: 100px 1fr 100px;
-  padding-left: 96px;
-  padding-right: 96px;
+  padding-left: 350px;
+  padding-right: 350px;
   background-image: url("img/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -36,12 +46,12 @@ body{
 }
 
 .foto {
-  background-color:blueviolet;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
   overflow: hidden;
+  border: 2px solid white;
 
 }
 
@@ -52,37 +62,37 @@ body{
 
 .foto:nth-child(2){
   grid-area: f2;
-  background-image: url(img/arena.jpg);
+  background-image: url(img/guedes.jpg);
 
 }
 
 .foto:nth-child(3){
   grid-area: f3;
-  background-image: url(/img/cassio.png);
+  background-image: url(/img/yuri.jpg);
 
 }
 
 .foto:nth-child(4){
   grid-area: f4;
-  background-image: url(/img/yuri.jpg);
+  background-image: url(/img/cassio.png);
 
 }
 
 .foto:nth-child(5){
   grid-area: f5;
-  background-image: url(/img/guedes.jpg);
+  background-image: url(/img/renato.png);
 
 }
 
 .foto:nth-child(6){
   grid-area: f6;
-  background-image: url(/img/renato.png);
+  background-image: url(/img/time.png);
 
 }
 
 .foto:nth-child(7){
   grid-area: f7;
-  background-image: url(/img/time.png);
+  background-image: url(/img/arena.jpg);
 
 }
 
@@ -138,13 +148,13 @@ header, footer{
   font-size: 1.3em;
   display: flex;
   justify-content: center;
+  font-family: 'Oswald', sans-serif;
 }
 
 .verMais > p{
   color: white;
+
 }
 
-.titulo2{
-  color: white;
-}
+
 

@@ -57,7 +57,7 @@ body{
 
 .foto:nth-child(1){
   grid-area: f1;
-  background-image: url(/img/logo.jpg);
+  background-image: url(img/logo.jpg);
 }
 
 .foto:nth-child(2){
@@ -68,37 +68,37 @@ body{
 
 .foto:nth-child(3){
   grid-area: f3;
-  background-image: url(/img/yuri.jpg);
+  background-image: url(img/yuri.jpg);
 
 }
 
 .foto:nth-child(4){
   grid-area: f4;
-  background-image: url(/img/cassio.png);
+  background-image: url(img/cassio.png);
 
 }
 
 .foto:nth-child(5){
   grid-area: f5;
-  background-image: url(/img/renato.png);
+  background-image: url(img/renato.png);
 
 }
 
 .foto:nth-child(6){
   grid-area: f6;
-  background-image: url(/img/time.png);
+  background-image: url(img/time.png);
 
 }
 
 .foto:nth-child(7){
   grid-area: f7;
-  background-image: url(/img/arena.jpg);
+  background-image: url(img/arena.jpg);
 
 }
 
 .foto:nth-child(8){
   grid-area: f8;
-  background-image: url(/img/fiel\ torcida.jpg);
+  background-image: url(img/fiel\ torcida.jpg);
   
 
 }
@@ -156,5 +156,9 @@ header, footer{
 
 }
 
+.botao{
+  height: 20px;
+  width: 20px;
+}
 
 
